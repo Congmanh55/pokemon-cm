@@ -28,7 +28,6 @@ const PokemonColection: React.FC<IProps> = (props) => {
                 <button className='pokemon-type-btn'>{item.type.name}</button>
               ))}
             </p>
-            {/* <p>{pokemon.abilities.ability.name}</p> */}
           </div>
         ))}
       </section>
